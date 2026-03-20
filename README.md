@@ -15,13 +15,13 @@ AI agent skills for Claude Code — video analysis, X/Twitter scanning, Gmail tr
 
 ```bash
 # List available skills
-npx skills add reymerekar/rm-skills --list
+npx skills add reymerekar7/rm-skills --list
 
 # Install a specific skill
-npx skills add reymerekar/rm-skills --skill video-performance-analyzer
+npx skills add reymerekar7/rm-skills --skill video-performance-analyzer
 
 # Install all skills
-npx skills add reymerekar/rm-skills --all
+npx skills add reymerekar7/rm-skills --all
 ```
 
 ## Setup
