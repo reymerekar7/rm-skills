@@ -1,0 +1,2 @@
+# No Python dependencies — uses stdlib only
+# Requires: npm install -g @googleworkspace/cli

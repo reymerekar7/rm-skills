@@ -1,0 +1,2 @@
+# No Python dependencies — uses subprocess to call curl
+# Requires: JINA_API_KEY environment variable
