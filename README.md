@@ -1,6 +1,6 @@
 # rm-skills
 
-AI agent skills for Claude Code — video analysis, X/Twitter scanning, Gmail triage, and tweet reading.
+A collection of Claude Code skills I built and use daily. More coming soon.
 
 ## Skills
 
