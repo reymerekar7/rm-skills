@@ -6,6 +6,7 @@ A collection of Claude Code skills I built and use daily. More coming soon.
 
 | Skill | Description | API Key Required |
 |-------|-------------|-----------------|
+| [infographic-generator](skills/infographic-generator/) | Build infographic PNGs from any topic — bring your brand book and reference images | Node.js + Playwright only |
 | [video-performance-analyzer](skills/video-performance-analyzer/) | Analyze short-form videos for transcript, performance scoring, and repurposing ideas | `GEMINI_API_KEY` |
 | [x-scanner](skills/x-scanner/) | Scan X/Twitter for AI news from 25+ curated accounts via xAI Grok API | `XAI_API_KEY` |
 | [gmail-triage](skills/gmail-triage/) | Triage Gmail inbox — flag important, summarize newsletters, clean up noise | Google Workspace CLI |
@@ -43,6 +44,24 @@ JINA_API_KEY=your_jina_key
 ```
 
 ## Per-Skill Details
+
+### Infographic Generator
+
+Builds multi-section HTML infographics and exports them to PNG via Playwright. Accepts brand context in any form — paste it inline, drop a file, or describe it — and/or reference images to match a layout style. Built-in default design system included — no setup needed beyond Playwright.
+
+```bash
+# Install Playwright (one-time)
+cd /tmp && npm install playwright
+```
+
+Then just ask Claude:
+```
+Create an infographic about [topic]
+Create an infographic about [topic]. My brand colors are #1A2744 and #6BA3D6, font is Inter.
+Create an infographic about [topic]. Match this layout: [drop image]
+```
+
+**Requires:** Node.js only — no API key
 
 ### Video Performance Analyzer
 
