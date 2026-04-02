@@ -10,6 +10,7 @@ A collection of Claude Code skills I built and use daily. More coming soon.
 | [video-performance-analyzer](skills/video-performance-analyzer/) | Analyze short-form videos for transcript, performance scoring, and repurposing ideas | `GEMINI_API_KEY` |
 | [x-scanner](skills/x-scanner/) | Scan X/Twitter for AI news from 25+ curated accounts via xAI Grok API | `XAI_API_KEY` |
 | [gmail-triage](skills/gmail-triage/) | Triage Gmail inbox — flag important, summarize newsletters, clean up noise | Google Workspace CLI |
+| [linkedin-asset-analyzer](skills/linkedin-asset-analyzer/) | Analyze LinkedIn carousels and infographics — visual design, engagement mechanics, and why it worked | None |
 | [twitter-reader](skills/twitter-reader/) | Fetch tweet content by URL using Jina.ai reader API | `JINA_API_KEY` |
 
 ## Install
@@ -85,6 +86,17 @@ python scripts/scan_x.py --query "Claude Code update"
 ```
 
 **Requires:** No Python packages (stdlib only)
+
+### LinkedIn Asset Analyzer
+
+Analyzes LinkedIn carousels and infographics through 4 lenses: Format & Layout, Visual Design, Engagement Mechanics, and Why It Worked. Drop an image or PDF and get specific insights about what drove performance.
+
+```
+Analyze this carousel [drop image]
+Why did this infographic perform? [drop image]
+```
+
+**Requires:** Nothing — works with Claude's built-in image reading
 
 ### Gmail Triage
 
